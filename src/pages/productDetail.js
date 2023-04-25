@@ -267,8 +267,24 @@ export default function ProductDetail() {
               backgroundColor: "secondary.main",
               width: "72px",
               height: "2px",
+              mb: "20px",
             }}
           />
+          <Stack direction={"row"} sx={sellersRow}>
+            <Typography
+              variant="body1"
+              sx={{
+                textAlign: "left",
+                paddingBottom: "10px",
+                color: "black",
+              }}
+            >
+              تیرآهن 16 ناب تبریز مشمول استاندارد IPE یا همان استاندارد اروپا و
+              ایران می باشد و در رده بندی تیرآهن های معمولی قرار می گیرد. تیرآهن
+              16 فولاد ناب تبریز دارای دو اندازه کوتاه و بلند بوده و کیلویی به
+              فروش می رسد.
+            </Typography>
+          </Stack>
         </Stack>
       </Stack>
     </>

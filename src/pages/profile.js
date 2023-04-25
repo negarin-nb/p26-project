@@ -47,7 +47,7 @@ export default function Profile() {
           <Grid item xs={6} md={3}>
             <Stack
               direction="row"
-              sx={[ColumnStyle, { justifyContent: "flex-end" }]}
+              sx={[ColumnStyle, { justifyContent: "flex-end", mb: "5px" }]}
             >
               <Box>
                 <Typography variant="h5">به پلاک ۲۶ خوش آمدید</Typography>

@@ -60,6 +60,7 @@ function App() {
                   <Route path="support" element={<Support />} />
                   <Route path="profile-info" element={<ProfileInfo />} />
                 </Route>
+                <Route path="profile/insert-ad" element={<AdInsert />} />
                 <Route path="home" element={<HomeLogedin />} />
                 <Route path="*" element={<NoPage />} />
                 <Route path="/" element={<Home />} />

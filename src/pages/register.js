@@ -1,6 +1,7 @@
 import React from "react";
 import { TextField, Button, Paper, Typography, Stack } from "@mui/material";
 import Header from "../components/header";
+import { Link } from "react-router-dom";
 
 export default function Register() {
   const paperStyle = {
@@ -46,6 +47,8 @@ export default function Register() {
             variant="contained"
             color="secondary"
             size="large"
+            component={Link}
+            to="/home"
           >
             عضویت
           </Button>
